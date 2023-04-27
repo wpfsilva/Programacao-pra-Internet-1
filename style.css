@@ -93,9 +93,10 @@ body {
 #donate
 {
 	display: inline-block;
-	width: 150px;
-	height: 150px;
+	width: 400px;
+	height: 400px;
 }
+
 
 img
 {
@@ -285,7 +286,12 @@ footer
 		background: rgb(58,62,180);
 	}
 	
-
+#donate
+{
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+}
 
 
 }
