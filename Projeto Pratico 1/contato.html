@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+</head>
+
+<body>
+    <header>
+        <a id="link-home" href="index.html"><img id="logo" src="img/logo.png" alt="logo">
+            <h1 class="sem-format">Conhecimento Livre
+            </h1>
+        </a>
+    </header>
+	<div class="naveg">
+        <nav><a href="index.html">Home</a>&emsp;<a href="projeto.html">Projeto</a>&emsp;<a href="contato.html">Contato</a>&emsp;<a href="localizacao.html">Localização</a> </nav>
+      </div> 
+    <main>
+    <h2>Solicitar Informações</h2>
+    <br>
+    <form action="sucesso.html" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="get-nome">Nome:</label>
+            <input id="get-nome" type="text" name="nome" placeholder="Nome">
+        </div>
+        <br>
+        <div>
+            <label for="get-email">Email:</label>
+            <input id="get-email" type="email" name="email" placeholder="Email">
+        </div>
+        <br>
+
+        <p>Tipo de mensagem</p>
+        <div id="t-msg" class="centralizado">
+            <input type="radio" id="reclamacao" name="tipo-msg" value="rec">
+            <label for="reclamacao">Reclamação</label>
+            <input type="radio" id="duvida" name="tipo-msg" value="duv">
+            <label for="duvida">Duvida</label>
+            <input type="radio" id="sugestao" name="tipo-msg" value="sug">
+            <label for="sugestao">Sugestão</label>
+        </div>
+        <br>
+        <p>Aluno?</p>
+        <div id="al_acad" class="centralizado">
+            <input type="radio" id="aluno_sim" name="radio_aluno" value="al_sim">
+            <label for="aluno_sim">Sim</label>
+            <input type="radio" id="aluno_nao" name="radio_aluno" value="al_nao">
+            <label for="aluno_nao">Não</label>
+        </div>
+        <br>
+        <label for="get-mensagem">Digite sua mensagem:</label>
+        <div class="esquerda">
+            <textarea id="get-mensagem" name="mensagem" rows="4" cols="50"
+                required placeholder="Digite sua Duvida/Sugestão/Reclamação"></textarea>
+        </div>
+
+        <div>
+            <input type="file" accept=".jpg,.mp4,.m4a,.mov">
+        </div>
+        <br>
+        <input type="submit" value="send"> <input type="reset" value="reset">
+   
+    </form>
+    <br>
+    <a href="index.html" class="btn">Voltar a página inicial.</a>
+
+</main>
+    <footer>             <p>&copy; Academia Stronger </p>         </footer>
+</body>
+
+</html>
