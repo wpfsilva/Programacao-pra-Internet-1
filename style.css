@@ -92,9 +92,9 @@ body {
 
 #donate
 {
-	display: block;
-	width: 100px;
-	height: 100px;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
 }
 
 img
