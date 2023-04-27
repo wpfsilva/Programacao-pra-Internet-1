@@ -14,14 +14,14 @@
 <body>
     <header>
         <a id="link-home" href="index.html"><img id="logo" src="img/logo.png" alt="logo">
-            <h1 class="sem-format">Conhecimento Livre
+            <h1 class="sem-format">Conhecimento sem fronteiras
             </h1>
         </a>
     </header>
 	<div class="naveg">
-        <nav><a href="index.html">Home</a>&emsp;<a href="projeto.html">Projeto</a>&emsp;<a href="contato.html">Contato</a>&emsp;<a href="localizacao.html">Localização</a> </nav>
+        <nav><a href="index.html">Home</a>&emsp;<a href="projeto.html">Projeto</a>&emsp;<a href="contato.html" class="ativo">Contato</a>&emsp;<a href="localizacao.html">Localização</a><a href="donate.html">Doações</a> </nav>
       </div> 
-    <main>
+<main>
     <h2>Solicitar Informações</h2>
     <br>
     <form action="sucesso.html" method="post" enctype="multipart/form-data">
@@ -34,10 +34,10 @@
             <label for="get-email">Email:</label>
             <input id="get-email" type="email" name="email" placeholder="Email">
         </div>
-        <br>
+
 
         <p>Tipo de mensagem</p>
-        <div id="t-msg" class="centralizado">
+        <div id="t-msg">
             <input type="radio" id="reclamacao" name="tipo-msg" value="rec">
             <label for="reclamacao">Reclamação</label>
             <input type="radio" id="duvida" name="tipo-msg" value="duv">
@@ -47,7 +47,7 @@
         </div>
         <br>
         <p>Aluno?</p>
-        <div id="al_acad" class="centralizado">
+        <div id="al_acad">
             <input type="radio" id="aluno_sim" name="radio_aluno" value="al_sim">
             <label for="aluno_sim">Sim</label>
             <input type="radio" id="aluno_nao" name="radio_aluno" value="al_nao">
@@ -60,18 +60,20 @@
                 required placeholder="Digite sua Duvida/Sugestão/Reclamação"></textarea>
         </div>
 
-        <div>
-            <input type="file" accept=".jpg,.mp4,.m4a,.mov">
-        </div>
+		<div id="newsletters">
+			<input type="checkbox" name="newsletters"><label>Deseja receber as novidades da nossa organização?</label>
+		</div>
         <br>
         <input type="submit" value="send"> <input type="reset" value="reset">
-   
+   		
+		
     </form>
-    <br>
-    <a href="index.html" class="btn">Voltar a página inicial.</a>
 
 </main>
-    <footer>             <p>&copy; Academia Stronger </p>         </footer>
+    <footer>             <p>&copy; Conhecimento sem fronteiras, Uma Organização sem fins lucrativos</p>         </footer>
+	<aside>
+<p>Somos uma organização sem fins lucrativos que visa ensinar as pessoas sem visar lucros</p>
+</aside>
 </body>
 
 </html>
