@@ -82,6 +82,12 @@ aside a {
 	text-decoration: none;
 }
 
+.blocos {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+}
 
 .button {
 	text-decoration: none;
@@ -263,6 +269,12 @@ button[type="submit"] {
 	input[type="number"],
 	select,
 	textarea {
-		padding:5px;
+		padding: 5px;
+	}
+
+	.blocos {
+		display: block;
+		align-items: center;
+		justify-content: space-around;
 	}
 }
