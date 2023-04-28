@@ -1,4 +1,4 @@
-*{
+* {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -9,7 +9,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	
+
 }
 
 body {
@@ -42,8 +42,7 @@ nav a {
 	border-radius: 24px;
 }
 
-nav a:hover
-{
+nav a:hover {
 	transition: 1s;
 	animation: colorCycle 1s infinite;
 }
@@ -52,22 +51,23 @@ nav a:hover
 	height: 30px;
 }
 
-#sidepopup:hover
-{
+#sidepopup:hover {
 	animation: colorCycle 1s infinite;
 }
 
 @keyframes colorCycle {
 	0% {
-	  background-color: #e74c3c;
+		background-color: #e74c3c;
 	}
+
 	50% {
 		background-color: #c0392b;
 	}
+
 	100% {
-	  background-color: #e74c3c;
+		background-color: #e74c3c;
 	}
-  }
+}
 
 aside a {
 	position: fixed;
@@ -123,12 +123,17 @@ section ul {
 	padding: 0;
 	display: flex;
 	flex-wrap: wrap;
+
 }
 
 section li {
 	flex: 1;
 	margin-right: 20px;
 	margin-bottom: 20px;
+}
+
+.destaques {
+	max-width: 400px;
 }
 
 
@@ -214,35 +219,34 @@ button[type="submit"] {
 	cursor: pointer;
 }
 
-@media only screen and (max-width: 600px)
-{
+@media only screen and (max-width: 600px) {
 	header {
 		padding: 0px;
-	  }
-	  nav li {
+	}
+
+	nav li {
 		margin: 0;
-	  }
+	}
 
-	  p
-	  {
+	p {
 		font-size: x-small;
-	  }
+	}
 
-	  .button
-	  {
+	.button {
 		font-size: x-small;
 		padding: 7px;
-	  }
+	}
 
-	  section h3
-	  {
+	section h3 {
 		font-size: small;
-	  }
+	}
 
-	  li a
-	  {
-		font-size:x-small;
-	  }
+	li a {
+		font-size: x-small;
+	}
 
+	.destaques {
+		max-width: 200px;
+	}
 
 }
