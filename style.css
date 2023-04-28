@@ -7,7 +7,7 @@ header {
 	border-bottom: 1px solid #ccc;
 	padding: 20px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	
 }
@@ -217,12 +217,32 @@ button[type="submit"] {
 @media only screen and (max-width: 600px)
 {
 	header {
-		padding: 10px;
-	  }
-	  nav {
-		flex-direction: column;
+		padding: 0px;
 	  }
 	  nav li {
 		margin: 0;
 	  }
+
+	  p
+	  {
+		font-size: x-small;
+	  }
+
+	  .button
+	  {
+		font-size: x-small;
+		padding: 7px;
+	  }
+
+	  section h3
+	  {
+		font-size: small;
+	  }
+
+	  li a
+	  {
+		font-size:x-small;
+	  }
+
+
 }
