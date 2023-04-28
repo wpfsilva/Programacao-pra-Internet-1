@@ -1,4 +1,3 @@
-/* Estilos para o cabeçalho */
 header {
 	background-color: #fff;
 	border-bottom: 1px solid #ccc;
@@ -9,66 +8,14 @@ header {
 }
 
 body {
-	font-family: Arial, sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	background-color: #f1f1f1;
 }
-
-form {
-	max-width: 500px;
-	margin: 0 auto;
-	font-family: Arial, sans-serif;
-  }
-  
-  label {
-	display: block;
-	margin-bottom: 5px;
-	font-weight: bold;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  input[type="number"],
-  select,
-  textarea {
-	display: block;
-	width: 100%;
-	padding: 10px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	margin-bottom: 10px;
-	font-size: 16px;
-  }
-  
-  select option {
-	font-size: 16px;
-  }
-  
-  input[type="checkbox"] + label,
-  input[type="radio"] + label {
-	display: inline-block;
-	margin-right: 10px;
-  }
-  
-  button[type="submit"] {
-	background-color: #007bff;
-	color: #fff;
-	border: none;
-	padding: 10px 20px;
-	border-radius: 5px;
-	font-size: 16px;
-	cursor: pointer;
-  }
-  
-  button[type="submit"]:hover {
-	background-color: #0069d9;
-  }
 
 header img {
 	height: 50px;
 }
 
-/*Estilizando a barra de navegação */
 nav ul {
 	list-style: none;
 	margin: 0;
@@ -86,23 +33,41 @@ nav a {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 16px;
-	padding:10px;
+	padding: 10px;
 	border-radius: 24px;
 }
 
-.corpo-img
-{
-	display:inline-block;
-	height: 40px;
+.corpo-img {
+	height: 30px;
 }
 
-nav a:hover
-{
-	color:white;
+
+aside a {
+	position: fixed;
+	right: 1%;
+	bottom: 1%;
+	background-color: #e74c3c;
+	color: #fff;
+	border-radius: 25px;
+	padding: 7px;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+aside a:hover {
 	background-color: #c0392b;
+	transition: 0.2s ease;
 }
 
-button {
+nav a:hover {
+	color: white;
+	background-color: #c0392b;
+	transition: 0.2s ease;
+}
+
+.button {
+	text-decoration: none;
 	background-color: #e74c3c;
 	color: #fff;
 	border: none;
@@ -113,16 +78,16 @@ button {
 	transition: background-color 0.3s ease;
 }
 
-button:hover {
+.button:hover {
 	background-color: #c0392b;
+	transition: 0.2s ease;
 }
 
-/* Estilos para o conteúdo principal */
 main {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 20px;
-	
+
 }
 
 section {
@@ -153,7 +118,7 @@ section li a {
 	display: block;
 	text-decoration: none;
 	color: #333;
-	
+
 }
 
 section li img {
@@ -162,9 +127,8 @@ section li img {
 	margin-bottom: 10px;
 }
 
-.ativo
-{
-	color:white;
+.ativo {
+	color: white;
 	background-color: #e74c3c;
 }
 
@@ -178,7 +142,6 @@ section li p {
 	color: #666;
 }
 
-/* Estilos para o rodapé */
 footer {
 	background-color: #f2f2f2;
 	padding: 20px;
@@ -186,4 +149,50 @@ footer {
 	font-size: 14px;
 	color: #999;
 	margin-top: 40px;
+}
+
+form {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+select option {
+	font-size: 16px;
+}
+
+input[type="checkbox"]+label,
+input[type="radio"]+label {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+button[type="submit"] {
+
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
 }
