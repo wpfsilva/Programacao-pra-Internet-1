@@ -228,17 +228,13 @@ button[type="submit"] {
 		margin: 0;
 	}
 
-	p {
-		font-size: x-small;
-	}
-
 	.button {
 		font-size: x-small;
 		padding: 7px;
 	}
 
 	section h3 {
-		font-size: small;
+		font-size: medium;
 	}
 
 	li a {
@@ -249,4 +245,20 @@ button[type="submit"] {
 		max-width: 200px;
 	}
 
+	p {
+		font-size: x-small;
+	}
+
+	form {
+		font-size: small;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	input[type="number"],
+	select,
+	textarea {
+		padding:5px;
+	}
 }
